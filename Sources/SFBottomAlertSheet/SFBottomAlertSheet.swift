@@ -1,7 +1,7 @@
 struct SFBottomAlertSheet {
     var text = "Hello, World!"
     
-    func printText() {
+    static func printText() {
         print(text)
     }
 }
