@@ -4,11 +4,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "SFBottomAlert",
+    name: "SFBottomAlertSheet",
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "SFBottomAlert",
+            name: "SFBottomAlertSheet",
             targets: ["SFBottomAlertSheet"]),
     ],
     dependencies: [
